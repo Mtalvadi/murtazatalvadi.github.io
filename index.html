@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Personal Portfolio Website Design | Codehal</title>
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- header design -->
+    <header class ="header">
+      <a href="#" class="logo">Portfolio</a>
+
+      <i class='bx bx-menu' id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Skills</a>
+        <a href="#portfolio">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+             <h3>Hello It's Me</h3>
+             <h1>Murtaza Talvadi </h1>
+             <h3>And I'm a <span class="multiple-text"> </span> </h3>
+             <p> I am a Certified Salesforce professional with 5.5 years of expertise in Banking, Finance, and Insurance domain. Proficient in Salesforce CRM, specializing in Sales, Service, Industry Cloud, and Financial Service Cloud, delivering tailored solutions within the financial sector. </p>
+             <div class="social-media">
+                  <a href="https://github.com/Mtalvadi"><i class='bx bxl-github'></i></a>
+                  <a href="https://twitter.com/MTalvadi"><i class='bx bxl-twitter' ></i></a>
+                  <a href="https://www.linkedin.com/in/murtaza-talvadi/"><i class='bx bxl-linkedin' ></i></a>
+                  <a href="https://medium.com/@murtazatalvadi"><i class='bx bxl-medium-square'></i></a>
+             </div>
+             <a href="#" class="btn">Download Resume</a>
+        </div>
+
+
+        <div class="home-img">
+              <img src="images/pic.png" alt="">
+        </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+      <div class="about-img">
+            <img src="images/pic2.png" alt="">
+      </div>
+
+      <div class="about-content">
+          <h2 class="heading"> About <span>Me </span></h2>
+          <h3>Salesforce Consultant!</h3>
+          <p> With my expertise spanning into Consulting, Technical Business Analysis, and Administration, I excel in Implementation, Configuration, and support. Proficient in Lightning Flows, Process Builder, Sharing Rules, Apex Sharing, Validation Rules, Reports, Dashboards, Custom Objects and Security. Skilled in user requirement gathering, crafting User stories, and delivering POCs/Demos. Experienced in data migration with Apex Data Loader and adept at data management. Possess strong analytical and communication skills with a proactive problem-solving mindset. </p>
+          <p> Hold a Masters in Analytics from Northeastern University - Canada. Actively learning and engaging in small projects to enhance my skill set. </p>
+          
+          <a href="#projects" class="btn">Read More</a>    
+      
+      </div>
+    </section>
+
+    <!-- projects section design -->
+    <section class="projects" id="projects">
+        <h2 class="heading">My <span>Skills </span></h2>
+
+        <div class="projects-container">
+          <div class="projects-box">
+            <i class='bx bx-code-alt' ></i>
+            <h3>IT </h3>
+            <p> Salesforce, Lightning Flows, Escalation Rules & Approval Process, Case Management, Apex, Data Security, R Language, Python, GitHub </p>
+            <!-- <a href="#" class="btn">Read More</a> -->
+          </div>
+
+          <div class="projects-box">
+            <i class='bx bxs-paint' ></i>
+            <h3>Project Management </h3>
+            <p> Business Analysis, Requirement Elicitation, Agile, Scrum, Kanban, Stakeholder & Client Management, Document Analysis </p>
+            <!-- <a href="#" class="btn">Read More</a> -->
+          </div>
+
+          <div class="projects-box">
+            <i class='bx bx-bar-chart-alt' ></i>
+            <h3>Soft Skills</h3>
+            <p> Communication, Facilitation, Mentoring, Leadership, Negotiation, Coaching, Customer Support </p>
+            <!-- <a href="#" class="btn">Read More</a> -->
+          </div>
+        </div>
+    </section>
+
+    <!-- portfolio section design -->
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Latest <span>Project</span></h2>
+      
+      <div class="portfolio-container">  
+          <div class="portfolio-box">
+            <img src="images/portfolio1.jpg" alt="">
+              <div class="portfolio-layer">
+                <h4>Potential Value Flow</h4>
+                <p>
+                  This automation ensures smooth data continuity in Salesforce Sales Cloud by updating the "Potential Value" from the Lead to the Opportunity after conversion, maintaining consistency between the two fields through a Record-triggered flow.</p>
+                <a href="https://github.com/Mtalvadi/potentialvalueflow"><i class='bx bx-link-external' ></i></a>
+              </div>
+          </div>
+
+          <div class="portfolio-box">
+            <img src="images/portfolio2.jpg" alt="">
+            <div class="portfolio-layer">
+              <h4>Primary Contact Flow</h4>
+              <p>This solution streamlines the Primary Contact Finder case using a custom "Account Roles" field on Contacts, updating the Contact Name dynamically based on specific conditions like NULL roles, the oldest contact among multiples, or the designated "Primary Contact."</p>
+              <a href="https://github.com/Mtalvadi/primarycontactflow"><i class='bx bx-link-external' ></i></a>
+            </div>
+          </div>
+
+          <div class="portfolio-box">
+            <img src="images/portfolio3.jpg" alt="">
+            <div class="portfolio-layer">
+              <h4>Global Sales Dashboard</h4>
+              <p>The dashboard combines "Opportunities by Rep" for workload and performance insights and "Sales Rep Win Rates" for evaluating target achievement and lead conversion, providing a comprehensive overview of sales team performance and revenue potential.</p>
+              <a href="https://github.com/Mtalvadi/globalsalesdashboard"><i class='bx bx-link-external' ></i></a>
+            </div>
+          </div>
+
+          <div class="portfolio-box">
+            <img src="images/portfolio4.jpg" alt="">
+            <div class="portfolio-layer">
+              <h4>Assigned Coordinator Automation</h4>
+              <p> This flow automatically assigns task ownership based on the "Assigned Coordinator" picklist value, updating the "Assigned To" field with the corresponding user. It streamlines task management and ownership assignment in the system.</p>
+              <a href="https://github.com/Mtalvadi/assignedcoordinatorflow"><i class='bx bx-link-external' ></i></a>
+            </div>
+          </div>
+
+          <div class="portfolio-box">
+            <img src="images/portfolio5.jpg" alt="">
+            <div class="portfolio-layer">
+              <h4>Shipping Specialist Flow</h4>
+              <p>This flow automates lead creation for Universal Container's Sales team, efficiently managing customer details and scheduling follow-ups. Assigning leads to the Shipping Specialist improves customer support for shipping service inquiries.</p>
+              <a href="https://github.com/Mtalvadi/shippingspecialistflow"><i class='bx bx-link-external' ></i></a>
+            </div>
+          </div>
+
+          <div class="portfolio-box">
+            <img src="images/portfolio6.jpg" alt="">
+            <div class="portfolio-layer">
+              <h4>Bike Riding Analysis Tableau Dashboard</h4>
+              <p>This dashboard analyzes hourly and daily bike rental counts, integrating seasonal and meteorological data for strategic planning and resource optimization in the Capital Bike Share system for 2011-2012.</p>
+              <a href="https://github.com/Mtalvadi/bike-riding-analysis-using-tableau"><i class='bx bx-link-external' ></i></a>
+            </div>
+          </div>
+          
+      </div>
+    </section>
+    
+    <!-- contact sectoin design -->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me!</span></h2>
+
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name">
+          <input type="email" placeholder="Email Address">
+        </div>
+        <div class="input-box">
+          <input type="number" placeholder="Mobile Number">
+          <input type="text" placeholder="Email Subject">
+        </div>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+        <input type="submit" value="Send Message" class="btn">
+      </form>
+    </section>
+
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by Murtaza | All Rights Reserved. </p>
+        </div>
+
+        <div class="footer-iconTop">
+          <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+
+    <!-- scroll reveal --> 
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed js --> 
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script> -->
+  
+    <script src="js/script.js"></script>
+  </body>
+</html>
