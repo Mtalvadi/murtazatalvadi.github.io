@@ -31,7 +31,7 @@ body {
 section {   
     min-height: 100vh;
     /*padding: 10rem 9% 2rem;*/
-    padding: 10rem 5% 2rem;
+    padding: 10rem 7% 2rem;
 
 }
 
@@ -86,7 +86,7 @@ section {
 
 .home-img img {
     width: 35vw;
-    animation: floatImage 4s ease-in-out infinite;
+    /*animation: floatImage 4s ease-in-out infinite;*/
 }
 
 @keyframes floatImage {
