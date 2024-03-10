@@ -31,7 +31,7 @@ body {
 section {   
     min-height: 100vh;
     /*padding: 10rem 9% 2rem;*/
-    padding: 10rem 7% 2rem;
+    padding: 10rem 5% 2rem;
 
 }
 
@@ -41,7 +41,7 @@ section {
     left: 0;
     width: 100%;
     /*padding: 2rem 9%;*/
-    padding: 2rem 7%;
+    padding: 2rem 5%;
     background: var(--bg-color);
     display: flex;
     justify-content: space-between;
