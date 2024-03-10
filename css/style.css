@@ -299,7 +299,8 @@ span {
 }
 
 .portfolio-layer p {
-    font-size: 1.6rem;
+    /*font-size: 1.6rem;*/
+    font-size: 0.6rem;
     margin: .3rem 0 1rem;
 }
 
