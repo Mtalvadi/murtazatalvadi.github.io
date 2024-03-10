@@ -118,8 +118,8 @@ span {
 } 
 
 .home-content h1 {
-    /*font-size: 5.6rem;*/
-    font-size: 3rem;
+    font-size: 5.6rem;
+    /*font-size: 3rem;*/
     font-weight: 700;
     line-height: 1.3;
 }
