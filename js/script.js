@@ -51,7 +51,7 @@ ScrollReveal().reveal('.home-content p, .about-content', { origin : 'right' });
 /*==================== typed js ====================*/
 
 var typed = new Typed('.multiple-text', {
-    strings: ['Salesforce Analyst', ' Graduate in Analytics', 'Technology Enthusiast' ],
+    strings: ['Salesforce BSA/Consultant', ' Graduate in Analytics', 'Technology Enthusiast' ],
     typeSpeed: 80,
     backSpeed: 80,
     backDelay: 1000,
